@@ -1,0 +1,74 @@
+graph two {
+
+    frame_w_electronics--motor1 [label = screw]
+    frame_w_electronics--motor2 [label = screw]
+    frame_w_electronics--motor3 [label = screw]
+    frame_w_electronics--motor4 [label = screw]
+    
+
+    frame [shape=box]
+    frame--arm1 [label = force_fit ]
+    frame--arm2 [label = force_fit ]
+    frame--arm3 [label = force_fit ]
+
+    frame_w_electronics [shape=box]
+    frame_w_electronics--frame
+
+    frame_w_electronics--esc1 [label = screw]
+    frame_w_electronics--esc2 [label = screw]
+    frame_w_electronics--esc3 [label = screw]
+    frame_w_electronics--esc3 [label = screw]
+
+
+    frame_soldered [shape=box]
+
+    frame_soldered--wires [label = soldered]
+    frame_soldered--frame_w_electronics
+
+    frame_w_controller--frame_soldered
+    frame_w_controller [shape=box]
+
+    frame_w_controller--nazam [label = force_fit]
+
+    frame_w_options--gcu [label = screw]
+
+    frame_w_options--rx [label = screw]
+
+    frame_w_options--gcu [label = screw]
+    frame_w_options--frame_w_controller
+    frame_w_options--pmu [label = screw]
+
+    frame_w_options--iosd [label = screw]
+    frame_w_options [shape=box]
+
+
+    frame_wired [shape=box]
+    frame_wired--frame_w_options
+    frame_wired--cables [ label = force_fit ]
+
+    landing_gear_w_imu [shape=box]
+    landing_gear_w_imu--landing_gear
+    landing_gear_w_imu--imu [label = screw]
+
+    frame_w_landing [shape=box]
+    frame_w_landing--landing_gear_w_imu [label = screw]
+    frame_w_landing--gimbal_mount [label = screw]
+    frame_w_landing--vtx [label = screw]
+    frame_w_landing--frame_wired
+
+    frame_w_gimbal--frame_w_landing
+    frame_w_gimbal--gimbal [label = force_fit]
+
+    frame--base
+
+    tricopter_artf--cover [label = screw]
+    tricopter_artf--frame_w_gimbal
+    tricopter_artf [shape=box]
+
+    tricopter--blade1 [label = force_fit]
+    tricopter--blade2 [label = force_fit]
+    tricopter--blade3 [label = force_fit]
+    tricopter--tricopter_artf
+    tricopter [shape=box]
+
+}
