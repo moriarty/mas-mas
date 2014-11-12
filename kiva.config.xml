@@ -1,6 +1,7 @@
 <factory>
     
     <shelf>
+        <uid></uid>
         <product>
             <name></name>
             <upc></upc>
