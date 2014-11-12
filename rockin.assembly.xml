@@ -1,10 +1,8 @@
 <assembly>
-    <tasks>
-        <task>
-            <action></action>
-            <subtasks>
-                <!--<task></task>-->
-            </subtasks>
-        </task>
-    </tasks>
+    <task>
+        <action><!--SOLDERING|PRESSFITTING|SCREWING--></action>
+        <subtasks>
+            <!--<task></task>-->
+        </subtasks>
+    </task>
 </assembly>
