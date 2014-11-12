@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<assembly xmlns="https://github.com/moriarty/mas-mas/blob/master/rockin.assembly.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/moriarty/mas-mas/blob/master/rockin.assembly.xml https://github.com/moriarty/mas-mas/blob/master/rockin.assembly.xml">
+<assembly xmlns="https://github.com/moriarty/mas-mas/blob/master/rockin.assembly.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/moriarty/mas-mas/blob/master/rockin.assembly.xsd https://github.com/moriarty/mas-mas/blob/master/rockin.assembly.xsd">
     <task>
         <action><!--SOLDERING|PRESSFITTING|SCREWING--></action>
         <subtasks>
