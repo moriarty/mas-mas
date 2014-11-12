@@ -1,0 +1,19 @@
+<factory>
+
+    <robot>
+        <uid></uid>
+        <battery></battery>
+        <home></home>
+    </robot>
+
+    <station>
+        <uid></uid>
+        <service>
+            <type></type>
+            <time></time>
+        </service>
+        <in></in>
+        <out></out>
+    </station>
+
+</factory>
