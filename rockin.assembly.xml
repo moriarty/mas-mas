@@ -1,0 +1,10 @@
+<assembly>
+    <tasks>
+        <task>
+            <action></action>
+            <subtasks>
+                <!--<task></task>-->
+            </subtasks>
+        </task>
+    </tasks>
+</assembly>
