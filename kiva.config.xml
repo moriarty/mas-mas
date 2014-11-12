@@ -1,4 +1,4 @@
-<factory>
+<warehouse>
     
     <shelf>
         <uid></uid>
@@ -36,4 +36,4 @@
         <home></home>
     </robot>
 
-</factory>
+</warehouse>
