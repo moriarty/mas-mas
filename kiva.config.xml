@@ -13,5 +13,27 @@
             </stock>
         </product>
     </shelf>
+    
+    <picker>
+        <uid><uid>
+        <name></name>
+        <worker>
+            <name></name>
+            <shift>
+                <start></start>
+                <end></end>
+                <breaks>
+                    <slot></slot>
+                    <slot></slot>
+                </breaks>
+            </shift>
+        </worker>
+    </picker>
+        
+    <robot>
+        <uid></uid>
+        <battery></battery>
+        <home></home>
+    </robot>
 
 </factory>
