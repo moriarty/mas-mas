@@ -1,5 +1,6 @@
 <warehouse>
     
+    <shelves>
     <shelf>
         <uid></uid>
         <product>
@@ -13,11 +14,14 @@
             </stock>
         </product>
     </shelf>
+    </shelves>
     
+    <pickers>
     <picker>
         <uid><uid>
         <name></name>
         <worker>
+            <uid></uid>
             <name></name>
             <shift>
                 <start></start>
@@ -29,11 +33,37 @@
             </shift>
         </worker>
     </picker>
+    </pickers>
         
+    <robots>
     <robot>
         <uid></uid>
         <battery></battery>
         <home></home>
     </robot>
-
+    </robots>
+    
+    <orders>
+    <order>
+        <uid></uid>
+        <date><date>
+        <customer>
+            <uid></uid>
+            <name></name>
+            <email></email>
+            <shipping>
+                <address></address>
+                <expected></expected>
+            </shipping>
+        </customer>
+        <products>
+            <product>
+                <name></name>
+                <upc></upc>
+                <quantity></quantity>
+            <product>
+        </products>
+    </order>
+    </orders>
+            
 </warehouse>
