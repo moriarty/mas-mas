@@ -17,8 +17,8 @@
     </shelves>
     
     <pickers>
-    <picker>
-        <uid><uid>
+      <picker>
+        <uid></uid>
         <name></name>
         <worker>
             <uid></uid>
@@ -32,7 +32,7 @@
                 </breaks>
             </shift>
         </worker>
-    </picker>
+        </picker>
     </pickers>
         
     <robots>
@@ -46,7 +46,7 @@
     <orders>
     <order>
         <uid></uid>
-        <date><date>
+        <date></date>
         <customer>
             <uid></uid>
             <name></name>
@@ -61,7 +61,7 @@
                 <name></name>
                 <upc></upc>
                 <quantity></quantity>
-            <product>
+            </product>
         </products>
     </order>
     </orders>
